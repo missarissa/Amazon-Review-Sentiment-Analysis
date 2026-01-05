@@ -1,5 +1,7 @@
-# STATS507_Final_Project
-Repository for the final project in STATS-507 in the Fall of 2024.
+# Amazon Review Sentiment Analysis
+
+Overview:
+
 
 Included in this repository are the following items:
 
