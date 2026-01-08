@@ -1,10 +1,13 @@
 # Amazon Review Sentiment Analysis
 
 Overview:
+This repository contains the full workflow for a sentiment analysis pipeline built utilizing SVM, BERT, and Logistic Regression. The project explores text data preprocessing (STOP words, vectorization, etc.), model training, ensemble-style prediction, and model evaluation to compare across the 3 model methods.
 
+The goal of this project is to demonstrate:
+   - End-to-end NLP model development with lower level tasks
+   - Comparison between classic ML and transformer ML models
 
-Included in this repository are the following items:
-
+Repository Structure:
 1. Preprocessing Data Analysis.ipynb
    - This document contains code for the preprocessing data analysis with the hugging face dataset.
    - The dataset is explored and multiple images are generated.
@@ -24,23 +27,20 @@ Included in this repository are the following items:
    - Pickled version of the SVM model from document 2.
 7. lg_model.pkl
    - Pickled version of the Logistic Regression model and vectorizer from document 2.
-8. trained_model folder *(not included)
-   - This folder contains the trained model and tokenizer for the BERT model from document 2.
-9. logs folder *(not included)
-   - This folder contains the logs from training the BERT model in document 2.
-10. results folder *(not included)
-    - This folder containes the results from training the BERT model in document 2.
-11. conclusion_data.csv
+8. conclusion_data.csv
     - This is the csv file created in document 2 and used in document 3.
-   
+
+Discluded Items:
+1. trained_model folder
+   - This folder contains the trained model and tokenizer for the BERT model from document 2.
+2. logs folder
+   - This folder contains the logs from training the BERT model in document 2.
+3. results folder
+    - This folder containes the results from training the BERT model in document 2.
+     
 References:
 - https://github.com/huggingface/notebooks/blob/main/transformers_doc/en/training.ipynb
 - https://discuss.huggingface.co/t/evaluating-finetuned-bert-model-for-sequence-classification/5265
 - https://medium.com/@nirajan.acharya777/sentimental-analysis-using-linear-regression-86764bfde907
 - Other HuggingFace Notebooks
 - StackOverflow forums
-- Class notes
-
-Notes:
-- Items 8-10 are not included as they were too large to upload. these documents can be gained by running the code in documents 2
-- The analysis done in document 3 does not require the missing items 8-10
