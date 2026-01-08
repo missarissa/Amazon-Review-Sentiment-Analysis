@@ -1,6 +1,7 @@
 # Amazon Review Sentiment Analysis
 
 Overview:
+
 This repository contains the full workflow for a sentiment analysis pipeline built utilizing SVM, BERT, and Logistic Regression. The project explores text data preprocessing (STOP words, vectorization, etc.), model training, ensemble-style prediction, and model evaluation to compare across the 3 model methods.
 
 The goal of this project is to demonstrate:
